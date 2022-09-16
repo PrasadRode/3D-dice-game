@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dice</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+<body>
+  <div class="heading">
+  <h1>DICE : GAME</h1>
+  
+</div>
+<p>Created using HTML CSS and JAVASCRIPT Project by: Prasad Rode</p>
+  <div class="upper">
+  <div class="main">
+
+    <h3>Fill your details below</h3>
+    
+
+    <div class="player">
+    <label class="playerno">Player 1:</label> <input type="text" placeholder="Enter the name">
+    <button class="cta btn">
+      <span>Play me</span>
+      <svg viewBox="0 0 13 10" height="10px" width="15px">
+        <path d="M1,5 L11,5"></path>
+        <polyline points="8 1 12 5 8 9"></polyline>
+      </svg>
+    </button>
+    <span class="score"> </span>
+    
+    
+  </div>
+  <div>
+    <label class="playerno">Player 2:</label>  <input type="text" placeholder="Enter the name">
+    <button class="cta btn">
+     <span>Play me</span>
+      <svg viewBox="0 0 13 10" height="10px" width="15px">
+        <path d="M1,5 L11,5"></path>
+        <polyline points="8 1 12 5 8 9"></polyline>
+      </svg>
+    </button>    <span class="score"> </span>
+  </div>
+  <div>
+    <label class="playerno">Player 3:</label>  <input type="text" placeholder="Enter the name">
+    <button class="cta btn">
+     <span>Play me</span>
+      <svg viewBox="0 0 13 10" height="10px" width="15px">
+        <path d="M1,5 L11,5"></path>
+        <polyline points="8 1 12 5 8 9"></polyline>
+      </svg>
+    </button>    <span class="score"> </span>
+    
+    
+  </div>
+  <div>
+    <label class="playerno">Player 4:</label>  <input type="text"  placeholder="Enter the name">
+    <button class="cta btn">
+     <span>Play me</span>
+      <svg viewBox="0 0 13 10" height="10px" width="15px">
+        <path d="M1,5 L11,5"></path>
+        <polyline points="8 1 12 5 8 9"></polyline>
+      </svg>
+    </button>    <span class="score"> </span>
+    
+    
+    </div>
+    <div>
+      <label class="playerno">Player 5:</label>  <input type="text" placeholder="Enter the name">
+    <button class="cta btn">
+     <span>Play me</span>
+      <svg viewBox="0 0 13 10" height="10px" width="15px">
+        <path d="M1,5 L11,5"></path>
+        <polyline points="8 1 12 5 8 9"></polyline>
+      </svg>
+    </button>    <span class="score"> </span>
+    
+    
+  </div>
+    <button class="btnWinner">Find Winner</button>
+  </div>
+     <div class="dicewrapper">
+    <div class="dice">
+            <ol class="die-list even-roll" data-roll="1" id="die-1">
+              <li class="die-item" data-side="1">
+                <span class="dot"></span>
+              </li>
+              <li class="die-item" data-side="2">
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </li>
+              <li class="die-item" data-side="3">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </li>
+              <li class="die-item" data-side="4">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </li>
+              <li class="die-item" data-side="5">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </li>
+              <li class="die-item" data-side="6">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </li>
+            </ol>
+        </div>
+    </div>
+  
+  </div>
+  
+  <div class="winnerdisplay">
+    <img src="./confetti.gif" alt="" width="33%">
+    <img src="./confetti.gif" alt="" width="33%">
+    <img src="./confetti.gif" alt="" width="33%">
+    <img src="./giphy.gif" alt="" width="20%">
+    <div class="winnername">WINNER<span class="winnername_span"></span></div>
+    <img src="./giphy.gif" alt="" width="20%" id="second">
+    <div class="playbtncon">
+    <button class="btnWinner" id="playagain">Play Again</button>
+  </div>
+    
+  </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
